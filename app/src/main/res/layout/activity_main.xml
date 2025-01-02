@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#0E041F"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+            <Button
+                android:id="@+id/enableBluetoothButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable Bluetooth" />
+
+            <Button
+                android:id="@+id/discoverDevicesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Discover Devices"
+                android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/devicesListView"
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#D3DCF8" /> <!-- Màu tối hơn khi nhấn -->
+    <corners android:radius="50dp" />
+    <padding android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="2dp" />
+    <shadow
+        android:radius="10dp"
+        android:color="#55000000" /> <!-- Hiệu ứng bóng -->
+</shape>
